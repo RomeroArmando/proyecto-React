@@ -4,8 +4,9 @@ import App from './App.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+  //esto esta en modo de desarrollo 
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-
+  </React.StrictMode>, 
+  //////////////////
 )
