@@ -2,3 +2,48 @@ img {
     width: 100px;
     height: 100px;
 }
+
+li {
+    list-style-type: none;
+}
+
+.cart-icon {
+    color: blue;
+    size: 50;
+}
+
+.cart {
+    margin: 1vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+.navbar{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+}
+
+.navbar-lista{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    
+
+}
+.navbar-lista li{
+
+    display: flex;
+    
+    
+
+}
+
+/*reescribir esto con sass*/

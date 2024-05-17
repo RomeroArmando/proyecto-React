@@ -1,4 +1,5 @@
 import Navbar from './components/navbar/Navbar'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 
 import './App.css'
 
@@ -11,10 +12,7 @@ function App() {
       <div>
      
         <Navbar />
-      
-        <h1>
-          Local de Informatica
-        </h1>
+        <ItemListContainer greetings ="bienvenidos a mi Ecomerce"/>
       </div>  
 
     </>
