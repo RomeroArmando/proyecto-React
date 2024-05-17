@@ -1,9 +1,18 @@
 body{
+
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+
+  /* esto impide que
+  se use mas del contenedor
+  principal*/
+  box-sizing: border-box; 
+  
+
 }
 
 h1{
+
   text-align: center;
+
 }
